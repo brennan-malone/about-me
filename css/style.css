@@ -1,3 +1,27 @@
 body {
   background-color: darkgrey;
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3vw;
+  width: max-content;
+  margin: auto;
+}
+
+ul {
+  list-style-type: circle;
+  display: list-item;
+}
+
+ol {
+  list-style-type: numbers;
+  display: list-item;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0
 }
