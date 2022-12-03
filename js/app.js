@@ -2,8 +2,6 @@
 
 let score = 0;
 
-console.log('hey world hey!');
-
 let userName = prompt('What is your name?');
 
 alert(`Welcome to my site ${userName}! Please answer the following with yes/no or y/n`);
@@ -17,7 +15,6 @@ function questionOne() {
   } else if (questionOneGuess === 'no' || questionOneGuess === 'n') {
     alert('You got it right!');
     score++;
-    // console.log('you got it right!');
   }
 }
 
@@ -25,7 +22,7 @@ function questionTwo() {
   let questionTwoGuess = prompt('My favorite book is "The Count of Monte Cristo"?').toLowerCase();
 
   if (questionTwoGuess === 'yes' || questionTwoGuess === 'y') {
-    // console.log('you got it right!');
+
     alert('You got it right!');
     score++;
   } else if (questionTwoGuess === 'no' || questionTwoGuess === 'n') {
@@ -36,7 +33,7 @@ function questionThree() {
   let questionThreeGuess = prompt('Do I have a Dance Dance Revolution Mat?').toLowerCase();
 
   if (questionThreeGuess === 'yes' || questionThreeGuess === 'y') {
-    // console.log('you got it right!');
+
     alert('You got it right!');
     score++;
   } else if (questionThreeGuess === 'no' || questionThreeGuess === 'n') {
@@ -51,7 +48,7 @@ function questionFour() {
     alert('You got it wrong!');
   } else if (questionFourGuess === 'no' || questionFourGuess === 'n') {
     alert('You got it right!');
-    // console.log('you got it right!');
+
     score++;
   }
 }
@@ -60,7 +57,7 @@ function questionFive() {
   let questionFiveGuess = prompt('Is the goose my favorite animal?').toLowerCase();
 
   if (questionFiveGuess === 'yes' || questionFiveGuess === 'y') {
-    // console.log('you got it right!');
+
     alert('You got it right!');
     score++;
   } else if (questionFiveGuess === 'no' || questionFiveGuess === 'n') {
@@ -81,7 +78,6 @@ function questionSix() {
     } else if (quesitonSixGuess === 56) {
       alert('You got it!');
       score++;
-      // console.log(`answer was ${questionSixGuess} which is correct`)
       break;
     } else {
       quesitonSixGuess = parseInt(prompt('Try again'));
